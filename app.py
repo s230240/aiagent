@@ -34,4 +34,4 @@ b = st.number_input('GDP입력',value=0.0)
 if st.button('환율 예측'):
   input_data = [[ a,b ]]
   p = model.predict(input_data)
-st.write('환율예측 결과는',p)
+  st.write('환율예측 결과는',p)
