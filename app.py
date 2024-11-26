@@ -3,7 +3,7 @@ import streamlit as st
 
 # 1. 기계학습 모델 파일 로드
 import jioblib
-model = joblib.load('linear_regression_model (1).pkl')
+model = joblib.load('linear_regression_model.pkl')
 
 # 2. 모델 설명
 st.title('지능형 환율 예측 에이전트') 
