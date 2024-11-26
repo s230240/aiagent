@@ -20,7 +20,7 @@ col1,col2 = st.columns(2)
 with col1:
  st.subheader('데이터시각화1')
  st.image
-with col2:('image(1).png')
+with col2:
  st.subheader('데이터시각화2')
  st.image('image.png')  
 
