@@ -31,5 +31,5 @@ a = st.selectbox('환율예측 확인 입력(확인한다:0, 확인하지않는�
 
 if st.button('환율 예측'):
   input_data = [[ a ]]
- p = model.predict(input_data)
- st.write('환율예측 결과는',p)
+  p = model.predict(input_data)
+st.write('환율예측 결과는',p)
