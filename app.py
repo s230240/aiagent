@@ -19,7 +19,7 @@ st.write('- 대응방안: 기술 사용 목적과 허용범위를 법적으로 �
 col1,col2 = st.columns(2)
 with col1:
  st.subheader('데이터시각화1')
- st.image
+ st.image('image (1).png')
 with col2:
  st.subheader('데이터시각화2')
  st.image('image.png')  
