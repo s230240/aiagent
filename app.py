@@ -18,11 +18,11 @@ st.write('- 대응방안: 기술 사용 목적과 허용범위를 법적으로 �
 # 3. 데이터시각화
 col1,col2 = st.columns(2)
 with col1:
-st.subheader('데이터시각화1')
-st.image
+ st.subheader('데이터시각화1')
+ st.image
 with col2:('image(1).png')
-st.subheader('데이터시각화2')
-st.image('image.png')  
+ st.subheader('데이터시각화2')
+ st.image('image.png')  
 
 # 4. 모델 활용
 st.subheader('모델 활용')
