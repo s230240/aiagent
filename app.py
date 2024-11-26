@@ -27,9 +27,11 @@ with col2:
 # 4. 모델 활용
 st.subheader('모델 활용')
 st.write('환율을 예측하고 싶으시다면, 1을 눌러주세요.')
-a = st.selectbox('환율예측 확인 입력(확인한다:0, 확인하지않는다:1',[0,1]))
+a = st.number_input('금리입력',value=0)
+b = st.number_input('GDP입력',value=0.0)
+c = st.selectbox('환율예측 확인 입력(확인한다:0, 확인하지않는다:1',[0,1]))
 
 if st.button('환율 예측'):
-  input_data = [[ a ]]
+  input_data = [[ a,b,c ]]
   p = model.predict(input_data)
 st.write('환율예측 결과는',p)
